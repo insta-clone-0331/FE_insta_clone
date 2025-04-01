@@ -62,7 +62,7 @@ npm run build
 
 ## 프로젝트 구조
 
-프로젝트의 폴더 구조와 각 파일/폴더의 역할에 대한 자세한 내용은 [instagram_clone_directory_structure.md](./instagram_clone_directory_structure.md) 파일을 참조하세요.
+프로젝트의 폴더 구조와 각 파일/폴더의 역할에 대한 자세한 내용은 [instagram_clone_directory_structure.md](./docs/instagram_clone_directory_structure.md) 파일을 참조하세요.
 
 ## 기술 스택
 
