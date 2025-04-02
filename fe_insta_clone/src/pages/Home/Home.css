@@ -1,0 +1,38 @@
+/* src/pages/Home/Home.css */
+.home {
+    display: flex;
+    max-width: 975px;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
+  
+  .home-feed {
+    flex: 2;
+    max-width: 614px;
+    margin-right: 28px;
+  }
+  
+  .home-sidebar {
+    flex: 1;
+    position: sticky;
+    top: 88px;
+    max-width: 293px;
+    height: fit-content;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 16px;
+    color: #8e8e8e;
+  }
+  
+  @media (max-width: 935px) {
+    .home-sidebar {
+      display: none;
+    }
+    
+    .home-feed {
+      margin: 0 auto;
+    }
+  }

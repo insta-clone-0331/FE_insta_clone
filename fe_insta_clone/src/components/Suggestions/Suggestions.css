@@ -1,0 +1,72 @@
+/* src/components/Suggestions/Suggestions.css */
+.suggestions-container {
+    background-color: #fafafa;
+    padding: 16px 0;
+    width: 100%;
+  }
+  
+  .suggestions-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    color: #8e8e8e;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .see-all {
+    color: #262626;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .suggestions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .suggestion-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+  }
+  
+  .suggestion-user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .suggestion-user img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .suggestion-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .suggestion-info a {
+    font-weight: 600;
+    font-size: 14px;
+    color: #262626;
+    text-decoration: none;
+  }
+  
+  .suggestion-text {
+    font-size: 12px;
+    color: #8e8e8e;
+  }
+  
+  .follow-button {
+    color: #0095f6;
+    font-weight: 600;
+    font-size: 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }

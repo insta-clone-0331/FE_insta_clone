@@ -1,0 +1,111 @@
+/* src/components/Post/Post.css */
+.post {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 24px;
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+  }
+  
+  .post-user {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #262626;
+  }
+  
+  .post-user img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .post-image {
+    width: 100%;
+  }
+  
+  .post-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-actions {
+    display: flex;
+    padding: 8px 16px;
+  }
+  
+  .action-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    margin-right: 16px;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .liked {
+    color: #ed4956;
+  }
+  
+  .post-likes {
+    font-weight: 600;
+    padding: 0 16px;
+    margin-bottom: 8px;
+  }
+  
+  .post-caption {
+    padding: 0 16px;
+    margin-bottom: 8px;
+  }
+  
+  .username {
+    font-weight: 600;
+    text-decoration: none;
+    color: #262626;
+    margin-right: 4px;
+  }
+  
+  .post-comments {
+    padding: 0 16px;
+    margin-bottom: 8px;
+  }
+  
+  .comment {
+    margin-bottom: 4px;
+  }
+  
+  .comment-form {
+    display: flex;
+    padding: 16px;
+    border-top: 1px solid #efefef;
+  }
+  
+  .comment-form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+  }
+  
+  .comment-form button {
+    color: #0095f6;
+    font-weight: 600;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 16px;
+    opacity: 0.7;
+  }
+  
+  .comment-form button:enabled {
+    opacity: 1;
+  }

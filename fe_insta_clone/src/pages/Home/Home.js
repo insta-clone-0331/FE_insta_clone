@@ -32,13 +32,20 @@ const Home = () => {
   return (
     <div className="home">
       <div className="home-feed">
-        <Stories />
-        {posts.map(post => (
-          <Post key={post.id} post={post} />
-        ))}
+        {/* <Stories /> */}
+        {posts.length > 0 ? (
+          posts.map(post => (
+            <Post key={post.id} post={post} />
+          ))
+        ) : (
+          <div className="no-posts">
+            <h2>게시물이 없습니다</h2>
+            <p>팔로우하는 사용자의 게시물이 여기에 표시됩니다.</p>
+          </div>
+        )}
       </div>
       <div className="home-sidebar">
-        <Suggestions />
+        {/* <Suggestions /> */}
       </div>
     </div>
   );
