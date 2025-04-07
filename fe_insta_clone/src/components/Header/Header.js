@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
-        <Link to="/" className="logo">Instagram Clone</Link>
+        <Link to="/" className="logo"><img src='.\etc\instagramm.png' /></Link>
         
         <div className="search-box">
           <input type="text" placeholder="검색" />
