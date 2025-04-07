@@ -1,6 +1,6 @@
 ---
 name: "\U0001F41EBug "
-about: Create a report to help us improve
+about: '버그 발생!!!!!!!!!!! '
 title: ''
 labels: ''
 assignees: ''
