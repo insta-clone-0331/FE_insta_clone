@@ -83,9 +83,9 @@ export const fetchPosts = async () => {
       id: 1,
       user: {
         username: 'user1',
-        profile_image: 'https://via.placeholder.com/32'
+        profile_image: './test_img/test_profile_icon1.jpg' //'https://via.placeholder.com/32'
       },
-      image: 'https://via.placeholder.com/614x614',
+      image: './test_img/test_post_pic1.jpg', /* 'https://via.placeholder.com/614x614' */
       caption: '첫 번째 게시물입니다. #인스타그램 #클론',
       likes_count: 42,
       liked_by_current_user: false,
@@ -98,9 +98,9 @@ export const fetchPosts = async () => {
       id: 2,
       user: {
         username: 'user2',
-        profile_image: 'https://via.placeholder.com/32'
+        profile_image: './test_img/test_profile_icon2.png' // 'https://via.placeholder.com/32'
       },
-      image: 'https://via.placeholder.com/614x614',
+      image: './test_img/test_post_pic2.jpg', // 'https://via.placeholder.com/614x614'
       caption: '두 번째 게시물입니다. #리액트 #웹개발',
       likes_count: 24,
       liked_by_current_user: true,
