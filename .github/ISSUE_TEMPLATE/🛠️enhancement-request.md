@@ -7,8 +7,6 @@ assignees: ''
 
 ---
 
-# Enhancement Request
-
 ## 개선 사항 설명
 이 기능은 무엇을 개선하려는지 설명해주세요.
 
